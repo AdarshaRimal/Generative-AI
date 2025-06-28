@@ -2,8 +2,8 @@
 from langchain_huggingface import ChatHuggingFace,HuggingFaceEndpoint
 from langchain_core.messages import SystemMessage,HumanMessage,AIMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_ollama import  ChatOllama
 from dotenv import load_dotenv
-from sympy import use
 
 load_dotenv()
 
@@ -13,7 +13,8 @@ load_dotenv()
 # )
 
 
-model = ChatGoogleGenerativeAI(model = "gemini-2.5-flash")
+# model = ChatGoogleGenerativeAI(model = "gemini-2.5-flash")
+model  = ChatOllama(model = 'deepseek-r1')
 
 chat_history = []
 while True:
