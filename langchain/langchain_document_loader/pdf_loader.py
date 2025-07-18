@@ -1,10 +1,9 @@
+
 from langchain_community.document_loaders import PyPDFLoader
 
-loader = PyPDFLoader('Adarsha_Rimal.pdf')
+loader = PyPDFLoader('GestureSpeak_refined.pdf')
 
-docs = loader.load()
-
-print(len(docs))
-
-print(docs[0].page_content)
-print(docs[1].metadata)
+document = loader.load()
+print(document[0].page_content)
+print(document[0].metadata)
+print(len(document))

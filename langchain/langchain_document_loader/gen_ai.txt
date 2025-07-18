@@ -1,0 +1,29 @@
+Title: Introduction to Generative AI
+
+Generative AI refers to artificial intelligence models that can generate new content such as text, images, audio, code, or video. Unlike traditional AI, which typically focuses on analysis or classification, generative AI creates entirely new data that resembles the training data it has seen.
+
+Popular Generative AI models include:
+- GPT (Generative Pre-trained Transformer) by OpenAI
+- DALL·E for image generation
+- MusicLM for music composition
+- Stable Diffusion for artistic image generation
+
+Core Applications:
+1. Text generation (e.g., ChatGPT)
+2. Image synthesis (e.g., generating artwork)
+3. Code generation (e.g., GitHub Copilot)
+4. Video and audio synthesis
+5. Personalized content generation in games, marketing, and education
+
+How It Works:
+Generative models are trained on massive datasets using deep learning. During training, they learn patterns and structures. When prompted, they produce new content by predicting what comes next — like autocomplete, but much more advanced.
+
+Ethical Considerations:
+Generative AI raises concerns about deepfakes, misinformation, job automation, and data privacy. It's important to use such technologies responsibly, with transparency and fairness in mind.
+
+The Future:
+Generative AI is reshaping creativity, productivity, and problem-solving. As models continue to improve, expect more human-AI collaboration across industries.
+
+---------------------------
+Author: ChatGPT/Adarsha_Rimal
+Generated on: 2025-07-18
