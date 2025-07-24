@@ -1,9 +1,9 @@
 streamlit
 python-dotenv
-youtube-transcript-api==1.2.1
+sentence-transformers
 langchain
 langchain-huggingface
 langchain-community
-langchain-core
-deep-translator
+youtube-transcript-api
 faiss-cpu
+requests
