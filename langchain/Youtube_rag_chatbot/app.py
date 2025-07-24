@@ -19,7 +19,7 @@ HF_TOKEN = os.getenv("HUGGINGFACEHUB_API_TOKEN") or st.secrets.get("HUGGINGFACEH
 # Initialize LLM + Embeddings
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 model = HuggingFaceEndpoint(
-    repo_id='mistralai/Mistral-7B-Instruct-v0.3',
+    repo_id='HuggingFaceH4/zephyr-7b-beta',
     task='text-generation',
     huggingfacehub_api_token=HF_TOKEN,
 )
