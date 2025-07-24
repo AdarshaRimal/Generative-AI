@@ -1,0 +1,9 @@
+streamlit
+python-dotenv
+youtube-transcript-api==1.2.1
+langchain
+langchain-huggingface
+langchain-community
+langchain-core
+deep-translator
+faiss-cpu
