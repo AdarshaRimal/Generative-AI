@@ -17,7 +17,8 @@ load_dotenv()
 HF_TOKEN = os.getenv("HUGGINGFACEHUB_API_TOKEN") or st.secrets.get("HUGGINGFACEHUB_API_TOKEN")
 
 # Initialize LLM + Embeddings
-embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+embeddings = HuggingFaceEmbeddings(
+    model_name="sentence-transformers/all-MiniLM-L6-v2")
 model = HuggingFaceEndpoint(
     repo_id='HuggingFaceH4/zephyr-7b-beta',
     task='text-generation',
